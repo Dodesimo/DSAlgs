@@ -1,3 +1,4 @@
+
 public class StackFromScratch {
 
     private int maxSize;
@@ -7,7 +8,7 @@ public class StackFromScratch {
     public StackFromScratch(int s) {
 
         maxSize = s;
-        stackArray = new Array[s];
+        stackArray = new int[s];
         top = 0;
 
     }
@@ -21,7 +22,7 @@ public class StackFromScratch {
 
     public int pop() {
 
-        target = stackArray[top];
+        int target = stackArray[top];
         stackArray[top] = 0;
         top--;
 
