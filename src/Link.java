@@ -2,7 +2,7 @@ public class Link {
 
     public int iData;
     public double dData;
-    public Link nextItem;
+    public Link nextLink;
 
     public Link(int i, double d) {
 
