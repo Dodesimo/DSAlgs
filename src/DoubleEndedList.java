@@ -46,9 +46,18 @@ public class DoubleEndedList {
 
         last = n;
     }
-    public int deleteFirst() {
+    public double deleteFirst() {
 
-        return 1;
+        double t = first.dData;
+
+        if (first.nextLink == null) {
+
+            last = null;
+
+        }
+
+        first = first.nextLink;
+        return t;
 
     }
 
