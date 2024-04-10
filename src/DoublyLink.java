@@ -12,7 +12,7 @@ public class DoublyLink {
 
     public void displayLink() {
 
-        System.out.println(dData + " ");
+        System.out.print(dData + " ");
 
     }
 
