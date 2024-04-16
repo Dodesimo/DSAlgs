@@ -1,4 +1,4 @@
-package QueuesAndStacks;
+package LinkedLists;
 
 public class QueueFromLinkedList {
 
