@@ -1,3 +1,4 @@
+package QueuesAndStacks;
 
 public class StackFromScratch {
 

@@ -1,3 +1,5 @@
+package LinkedLists;
+
 public class DoubleEndedList {
 
     public Link first;

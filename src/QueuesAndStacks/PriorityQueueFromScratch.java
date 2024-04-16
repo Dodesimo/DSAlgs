@@ -1,3 +1,5 @@
+package QueuesAndStacks;
+
 public class PriorityQueueFromScratch {
 
     public int maxSize;

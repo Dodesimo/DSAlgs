@@ -1,4 +1,4 @@
-import java.util.Queue;
+package QueuesAndStacks;
 
 public class QueueFromLinkedList {
 

@@ -1,3 +1,5 @@
+package LeetCode;
+
 public class xorInAString {
 
     public static void main (String args[]) {

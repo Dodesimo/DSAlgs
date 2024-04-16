@@ -1,3 +1,5 @@
+package QueuesAndStacks;
+
 public class StackFromLinkedList {
 
     public SimpleSingleLinkedList sl;

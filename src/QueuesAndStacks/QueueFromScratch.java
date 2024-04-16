@@ -1,3 +1,5 @@
+package QueuesAndStacks;
+
 public class QueueFromScratch {
 
     public int maxSize;

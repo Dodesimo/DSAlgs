@@ -1,3 +1,5 @@
+package LinkedLists;
+
 public class SimpleSingleLinkedList {
 
     public Link first;

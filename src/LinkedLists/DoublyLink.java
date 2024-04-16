@@ -1,3 +1,5 @@
+package LinkedLists;
+
 public class DoublyLink {
 
     public long dData;

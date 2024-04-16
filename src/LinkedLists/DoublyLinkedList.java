@@ -1,3 +1,5 @@
+package LinkedLists;
+
 public class DoublyLinkedList {
 
     public DoublyLink first;
