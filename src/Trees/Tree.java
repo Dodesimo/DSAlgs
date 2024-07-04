@@ -159,7 +159,34 @@ public class Tree {
 
         }
 
+        return true;
+    }
 
+    private Node getSuccessor(Node delNode){
+
+        Node parent = delNode;
+        Node successor = delNode;
+        Node current = delNode.rNode;
+
+        while (current != null) {
+
+            parent = successor;
+            successor = current;
+            current = current.lNode;
+
+        }
+
+        //If it is directly not to the right.
+        if(successor != delNode.rNode)
+        {
+
+            //why is this necessary>
+            parent.lNode = successor.rNode;
+            successor.rNode = delNode.rNode;
+
+        }
+
+        return parent;
     }
 
     public void inOrder(Node localRoot) {
